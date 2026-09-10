@@ -17,7 +17,7 @@ import qrcode
 from io import BytesIO
 
 # ==================== CONFIG ====================
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8912326354:AAGfCi_Vdkvr5CTXzWyIMGXJg_tRiAkTh28")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8829210946:AAHFjl25JEe7hrRhH-az2hVp5tQPMHJfvls")
 ADMIN_IDS = [int(x.strip()) for x in os.getenv("ADMIN_IDS", "7709767483").split(",") if x.strip().lstrip("-").isdigit()]
 DATABASE_PATH = os.getenv("DATABASE_PATH", "bot_database.db")
 PORT = int(os.getenv('PORT', 8080))
